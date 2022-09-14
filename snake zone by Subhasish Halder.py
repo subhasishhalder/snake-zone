@@ -1,4 +1,4 @@
-#Kindly give credits before using my codes for your mini project! ^_^
+#Kindly give credits before using my codes for your mini project! ^_^ ~Subhasish Halder
 
 #importing libraries
 import turtle
@@ -153,7 +153,7 @@ while True:
                 screen.clear()
                 screen.bgcolor('white')
                 scoring.goto(0,0)
-                scoring.write("   You’re never a loser until you quit trying.! \n Your Score is {}".format(score),align="center",font=("Courier",30,"bold"))
+                scoring.write("   Better Luck Next Time! \n Your Score is {}".format(score),align="center",font=("Didot",30,"bold"))
                 time.sleep(5)
                 quit()
         ## snake collision
@@ -163,7 +163,7 @@ while True:
                 screen.clear()
                 screen.bgcolor('white')
                 scoring.goto(0,0)
-                scoring.write("    You’re never a loser until you quit trying.!  \n Your Score is {}".format(score),align="center",font=("Courier",30,"bold"))
+                scoring.write("    Better Luck Next Time!  \n Your Score is {}".format(score),align="center",font=("Didot",30,"bold"))
                 time.sleep(5)
                 quit()
                 
